@@ -1,0 +1,30 @@
+.body-color {
+    background: rgb(54, 36, 1);
+}
+
+.nav-color {
+    background: rgb(223, 223, 44);
+}
+
+.nav-content:hover {
+    color: purple;
+}
+
+.jumbotron {
+    background-color: yellow;
+    ;
+    height: 500px;
+    margin: 50px;
+}
+
+.bg-cover {
+    background: url(/Pictures/kirsten-drew-n49BjsFf5dI-unsplash.jpg);
+}
+
+footer {
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 75px;
+    padding: 50px;
+    height: 100px;
+}
