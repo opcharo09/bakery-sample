@@ -51,7 +51,7 @@
        padding-left: 45px;
        padding-bottom: 2px;
        font-size: 1.2rem;
-       color: rgb(116, 13, 129);
+       color: rgb(202, 43, 223);
    }
    
    .nav-color {
@@ -63,7 +63,7 @@
    }
    
    .nav-link {
-       color: whitesmoke;
+       color: rgb(202, 43, 223);
        font-weight: bold;
    }
    
@@ -78,7 +78,7 @@
    }
    
    .icon {
-       color: rgb(116, 13, 129);
+       color: rgb(202, 43, 223);
        padding-left: 10px;
    }
    
@@ -136,6 +136,11 @@
        text-align: center;
        margin-bottom: 10px;
        margin-top: 0;
+   }
+   
+   .order-info {
+       display: grid;
+       grid-template-columns: auto;
    }
    /* -------------------------------------------------------cakes page ------------------------------------------------------- */
    /* -------------------------------------------------------cookies page ------------------------------------------------------- */
