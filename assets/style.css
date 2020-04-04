@@ -63,7 +63,7 @@
    }
    
    .nav-link {
-       color: rgb(202, 43, 223);
+       color: rgb(177, 76, 190);
        font-weight: bold;
    }
    
@@ -142,14 +142,37 @@
        display: grid;
        grid-template-columns: auto;
    }
+   
+   .order-event {
+       margin: 25px;
+       padding: 10px;
+       display: grid;
+       grid-template-columns: auto;
+   }
    /* -------------------------------------------------------cakes page ------------------------------------------------------- */
    /* -------------------------------------------------------cookies page ------------------------------------------------------- */
    
+   .card {
+       border: 3px solid rgb(223, 223, 44);
+   }
+   
    #pastries-con {
-       padding: 50px;
+       padding: 40px 10px 40px 10px;
    }
    
    .card-img-top {
        height: 200px;
+   }
+   
+   .card-body {
+       background-color: rgb(223, 223, 44);
+   }
+   
+   .pastries-button {
+       color: rgb(225, 215, 226);
+       width: 100%;
+       padding: 10px 50px 10px 50px;
+       background-color: rgb(116, 13, 129);
+       font-weight: 600;
    }
    /* -------------------------------------------------------desserts page ------------------------------------------------------- */
