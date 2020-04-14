@@ -56,160 +56,182 @@
                 </ul>
             </div>
         </nav>
-        <div class="container order-con">
+        <div class="container-custom">
 
             <Header>Order <span>Online</span></Header>
 
             <form>
-                <div class="order-info">
-                    <label for="name">Name</label>
-                    <input id="name" type="text">
 
-                    <label for="phone">Phone Number</label>
-                    <input id="phone" type="text">
+                <div class="row">
+                    <div class="col-12 col-lg-6 ">
+                        <div class="order-info  ">
 
-                    <label for="venue">Venue</label>
-                    <input id="venue" type="text">
+                            <div><label for="name">Name</label>
+                                <input id="name" type="text"></div>
 
-                    <label for="address">Venue Address</label>
-                    <input id="address" type="text">
+                            <div><label for="phone">Phone Number</label>
+                                <input id="phone" type="text"></div>
 
-                    <label for="venue-phone">Venue Phone Number</label>
-                    <input id="venue-phone" type="text">
+                            <div><label for="venue">Venue</label>
+                                <input id="venue" type="text"></div>
 
-                    <label for="date-ordered">Date Ordered</label>
-                    <input id="date-ordered" type="date">
+                            <div><label for="address">Venue Address</label>
+                                <input id="address" type="text"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 ">
+                        <div class="order-info  ">
+                            <div><label for="venue-phone">Venue Phone Number</label>
+                                <input id="venue-phone" type="text"></div>
 
-                    <label for="date-required">Date Required</label>
-                    <input id="date-required" type="date">
+                            <div><label for="date-ordered">Date Ordered</label>
+                                <input id="date-ordered" type="date"></div>
 
-                    <label for="time-deliver">Time to Deliver</label>
-                    <input id="time-deliver" type="text">
+                            <div><label for="date-required">Date Required</label>
+                                <input id="date-required" type="date"></div>
+
+                            <div><label for="time-deliver">Time to Deliver</label>
+                                <input id="time-deliver" type="text"></div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="order-event">
-                    <label for="wedding">Wedding</label>
-                    <input id="wedding" type="checkbox">
 
-                    <label for="quincenera">Quincenera</label>
-                    <input id="quincenera" type="checkbox">
+                <div class="row ">
+                    <div class="col-12 d-flex ">
+                        <div class="order-event d-flex align-content-start">
+                            <div><label for="wedding">Wedding</label>
+                                <input id="wedding" type="checkbox"></div>
 
-                    <label for="anniversary">Anniversary</label>
-                    <input id="anniversary" type="checkbox">
+                            <div><label for="quincenera">Quincenera</label>
+                                <input id="quincenera" type="checkbox"></div>
 
-                    <label for="birthday">Birthday</label>
-                    <input id="birthday" type="checkbox">
+                            <div><label for="anniversary">Anniversary</label>
+                                <input id="anniversary" type="checkbox"></div>
 
-                    <label for="other">Other</label>
-                    <input id="other" type="checkbox">
+                            <div><label for="birthday">Birthday</label>
+                                <input id="birthday" type="checkbox"></div>
+
+                            <div><label for="other">Other</label>
+                                <input id="other" type="checkbox"></div>
+                        </div>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 col-lg-3 ">
+                        <div class="cakes-detaild-flex align-content-start ">
+                            <div> <label for="cake">Cake # </label>
 
-                <div class="cakes-detail">
-                    <label for="cake">Cake # </label>
-
-                    <select id="cake">
+                                <select id="cake">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="3+">3+</option>
-                </select>
+                </select></div>
 
-                    <label for="servings"># Servings </label>
-
-                    <select id="servings">
+                            <div><label for="servings"># Servings </label>
+                                <select id="servings">
                     <option value="5-10">5-10</option>
                     <option value="10-15">10-15</option>
                     <option value="15-20">15-20</option>
                     <option value="20+">20+</option>
-                </select>
+                </select></div>
 
-                    <label for="cake-color">Color</label>
-                    <input id="cake-color" type="text">
+                            <div><label for="cake-color">Color</label>
+                                <input id="cake-color" type="text"></div>
 
+                        </div>
+                    </div>
                 </div>
+                <!-- ///////////////////////////////////////////////////////// cake topings/////////////////////////////// -->
+                <!-- <div class="row">
+                    <div class="col-4">
+                        <div class="cake-icing">
+                            <h2>Cake Icing</h2>
 
-                <div class="cake-icing">
-                    <h2>Cake Icing</h2>
+                            <label for="fondant">Fondant</label>
+                            <input id="fondant" type="checkbox">
 
-                    <label for="fondant">Fondant</label>
-                    <input id="fondant" type="checkbox">
+                            <label for="buttercream">Buttercream</label>
+                            <input id="buttercream" type="checkbox">
 
-                    <label for="buttercream">Buttercream</label>
-                    <input id="buttercream" type="checkbox">
+                            <label for="whip-cream">Whip Cream</label>
+                            <input id="whip-cream" type="checkbox">
 
-                    <label for="whip-cream">Whip Cream</label>
-                    <input id="whip-cream" type="checkbox">
+                            <label for="cream-cheese">Cream Cheese</label>
+                            <input id="cream-cheese" type="checkbox">
 
-                    <label for="cream-cheese">Cream Cheese</label>
-                    <input id="cream-cheese" type="checkbox">
+                            <label for="choco-w-c">Chocolate Whip Cream</label>
+                            <input id="choco-w-c" type="checkbox">
 
-                    <label for="choco-w-c">Chocolate Whip Cream</label>
-                    <input id="choco-w-c" type="checkbox">
+                            <label for="choco-b-c">Chocolate Butter Cream</label>
+                            <input id="choco-b-c" type="checkbox">
 
-                    <label for="choco-b-c">Chocolate Butter Cream</label>
-                    <input id="choco-b-c" type="checkbox">
+                            <label for="other">Other</label>
+                            <input id="other" type="checkbox">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="cake-flavor">
+                            <h2>Cake Flavor</h2>
 
-                    <label for="other">Other</label>
-                    <input id="other" type="checkbox">
-                </div>
+                            <label for="french-vanilla">French Vanilla</label>
+                            <input id="french-vanilla" type="checkbox">
 
-                <div class="cake-flavor">
-                    <h2>Cake Flavor</h2>
+                            <label for="chocolate">Chocolate</label>
+                            <input id="chocolate" type="checkbox">
 
-                    <label for="french-vanilla">French Vanilla</label>
-                    <input id="french-vanilla" type="checkbox">
+                            <label for="yellow">Yellow</label>
+                            <input id="yellow" type="checkbox">
 
-                    <label for="chocolate">Chocolate</label>
-                    <input id="chocolate" type="checkbox">
+                            <label for="pinnaple">Pinnaple</label>
+                            <input id="pinnaple" type="checkbox">
 
-                    <label for="yellow">Yellow</label>
-                    <input id="yellow" type="checkbox">
+                            <label for="strawberry">Strawberry</label>
+                            <input id="strawberry" type="checkbox">
 
-                    <label for="pinnaple">Pinnaple</label>
-                    <input id="pinnaple" type="checkbox">
+                            <label for="red-velvet">Red Velvet</label>
+                            <input id="red-velvet" type="checkbox">
 
-                    <label for="strawberry">Strawberry</label>
-                    <input id="strawberry" type="checkbox">
+                            <label for="white">White</label>
+                            <input id="white" type="checkbox">
 
-                    <label for="red-velvet">Red Velvet</label>
-                    <input id="red-velvet" type="checkbox">
+                            <label for="other">Other</label>
+                            <input id="other" type="checkbox">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="cake-filling">
+                            <h2>Cake Filling</h2>
 
-                    <label for="white">White</label>
-                    <input id="white" type="checkbox">
+                            <label for="f-strawberry">Fresh Strawberry</label>
+                            <input id="f-strawberry" type="checkbox">
 
-                    <label for="other">Other</label>
-                    <input id="other" type="checkbox">
-                </div>
+                            <label for="peaches">Peaches</label>
+                            <input id="peaches" type="checkbox">
 
-                <div class="cake-filling">
-                    <h2>Cake Filling</h2>
+                            <label for="fruit-cocktail">Fruit Cocktail</label>
+                            <input id="fruit-cocktail" type="checkbox">
 
-                    <label for="f-strawberry">Fresh Strawberry</label>
-                    <input id="f-strawberry" type="checkbox">
+                            <label for="pecan">Pecan</label>
+                            <input id="pecan" type="checkbox">
 
-                    <label for="peaches">Peaches</label>
-                    <input id="peaches" type="checkbox">
+                            <label for="preserved-fruit">Preserve Fruit</label>
+                            <input id="preserved-fruit" type="checkbox">
 
-                    <label for="fruit-cocktail">Fruit Cocktail</label>
-                    <input id="fruit-cocktail" type="checkbox">
+                            <label for="pudding">Pudding</label>
+                            <input id="pudding" type="checkbox">
 
-                    <label for="pecan">Pecan</label>
-                    <input id="pecan" type="checkbox">
+                            <label for="caramel">Caramel(Cajeta)</label>
+                            <input id="caramel" type="checkbox">
 
-                    <label for="preserved-fruit">Preserve Fruit</label>
-                    <input id="preserved-fruit" type="checkbox">
-
-                    <label for="pudding">Pudding</label>
-                    <input id="pudding" type="checkbox">
-
-                    <label for="caramel">Caramel(Cajeta)</label>
-                    <input id="caramel" type="checkbox">
-
-                    <label for="other">Other</label>
-                    <input id="other" type="checkbox">
-                </div>
-
-                <div class="special-order">
+                            <label for="other">Other</label>
+                            <input id="other" type="checkbox">
+                        </div>
+                    </div>
+                </div> -->
+                <!-- ///////////////////////////////////////////////////////////////////special note///////////////////////////////////////////// -->
+                <!-- <div class="special-order">
                     <label for="special-requirements">Special Requirments</label>
                     <textarea cols="40" rows="4" id="special-requirements"></textarea>
                 </div>
@@ -250,7 +272,7 @@
                     </p>
                 </div>
 
-                <button>Submit</button>
+                <button>Submit</button> -->
 
             </form>
 
