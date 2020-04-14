@@ -93,6 +93,7 @@
        opacity: 0.8;
        color: rgb(116, 13, 129);
        font-weight: 600;
+       background: rgb(225, 215, 226);
    }
    
    footer {
@@ -115,15 +116,59 @@
    /* -------------------------------------------------------about page ------------------------------------------------------- */
    
    .about-cover {
-       background-color: rgb(223, 223, 44);
+       background-color: rgb(225, 215, 226);
        color: rgb(116, 13, 129);
        opacity: 0.9;
        padding: 50px;
    }
    /* -------------------------------------------------------contact page ------------------------------------------------------- */
+   
+   .contact-form {
+       font-size: 1.5;
+   }
+   
+   label {
+       display: flex;
+       align-items: center;
+       font-size: 1.125rem;
+       margin-bottom: 0.5rem;
+   }
+   
+   input,
+   button,
+   select,
+   textarea {
+       margin: 0;
+       font-family: inherit;
+       font-size: inherit;
+       line-height: inherit;
+   }
+   
+   .contact-form input {
+       width: 300px;
+       height: 40px;
+   }
+   
+   .contact-form input,
+   textarea {
+       border: 2px solid rgb(116, 13, 129);
+   }
+   
+   .contact-btn {
+       padding: 5px 50px 5px 50px;
+       color: rgb(116, 13, 129);
+       border: 2px solid rgb(116, 13, 129);
+       font-weight: 800;
+   }
    /* -------------------------------------------------------orders page ------------------------------------------------------- */
    
+   form {
+       margin-bottom: 50px;
+   }
+   
    .container-custom {
+       border: 5px solid rgb(39, 20, 3);
+       border-radius: 10px;
        background: rgb(225, 215, 226);
        padding: 40px;
        color: rgb(116, 13, 129);
@@ -137,10 +182,11 @@
        margin-bottom: 10px;
        margin-top: 0;
    }
-   /* .order-info {
-       display: grid;
-       grid-template-columns: auto;
-   } */
+   
+   .order-info input {
+       width: 300px;
+       height: 40px;
+   }
    
    .order-event {
        display: grid;
