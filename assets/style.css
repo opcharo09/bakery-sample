@@ -166,6 +166,7 @@
            background-color: rgb(116, 13, 129);
        }
        /* -------------------------------------------------------orders page ------------------------------------------------------- */
+       /* container for order and about page */
        
        .container-custom {
            border: 5px solid rgb(39, 20, 3);
@@ -192,8 +193,30 @@
        .order-event {
            padding-left: 0;
        }
+       
+       .special-order label {
+           border: 2px solid rgb(116, 13, 129);
+           margin-bottom: 0;
+       }
+       
+       .prices label {
+           border: 2px solid rgb(116, 13, 129);
+           margin-bottom: 0;
+       }
+       
+       textarea {
+           -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+           box-sizing: border-box;
+           width: 100%;
+       }
        /* -------------------------------------------------------cakes page ------------------------------------------------------- */
        /* -------------------------------------------------------cookies page ------------------------------------------------------- */
+       /* -------------------------------------------------------desserts page ------------------------------------------------------- */
+       
+       .pastries-card {
+           border: 3px solid rgb(223, 223, 44);
+       }
        
        .card {
            border: 3px solid rgb(223, 223, 44);
@@ -218,4 +241,39 @@
            background-color: rgb(116, 13, 129);
            font-weight: 600;
        }
-       /* -------------------------------------------------------desserts page ------------------------------------------------------- */
+       /*-------------------------------------------------------media queries----------------------------------------------------*/
+       /* // Extra small devices (portrait phones, less than 576px) */
+       
+       @media (max-width: 575.98px) {
+           .pastries-card {
+               width: 18rem;
+           }
+       }
+       /* // Small devices (landscape phones, 576px and up) */
+       
+       @media (min-width: 576px) and (max-width: 767.98px) {
+           .pastries-card {
+               width: 18rem;
+           }
+       }
+       /* // Medium devices (tablets, 768px and up) */
+       
+       @media (min-width: 768px) and (max-width: 991.98px) {
+           .pastries-card {
+               width: 18rem;
+           }
+       }
+       /* // Large devices (desktops, 992px and up) */
+       
+       @media (min-width: 992px) and (max-width: 1199.98px) {
+           .pastries-card {
+               width: 18rem;
+           }
+       }
+       /* // Extra large devices (large desktops, 1200px and up) */
+       
+       @media (min-width: 1200px) {
+           .pastries-card {
+               width: 16rem;
+           }
+       }
