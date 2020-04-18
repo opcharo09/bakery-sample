@@ -147,10 +147,6 @@
        .contact-form input {
            width: 200px;
            height: 40px;
-           /* -webkit-box-sizing: border-box;
-           -moz-box-sizing: border-box;
-           box-sizing: border-box; */
-           /* width: 100%; */
        }
        
        .contact-form input,
@@ -259,12 +255,18 @@
            .pastries-card {
                width: 18rem;
            }
+           .contact-form input {
+               width: 300px;
+           }
        }
        /* // Medium devices (tablets, 768px and up) */
        
        @media (min-width: 768px) and (max-width: 991.98px) {
            .pastries-card {
                width: 18rem;
+           }
+           .contact-form input {
+               width: 300px;
            }
        }
        /* // Large devices (desktops, 992px and up) */
@@ -273,11 +275,17 @@
            .pastries-card {
                width: 18rem;
            }
+           .contact-form input {
+               width: 300px;
+           }
        }
        /* // Extra large devices (large desktops, 1200px and up) */
        
        @media (min-width: 1200px) {
            .pastries-card {
                width: 16rem;
+           }
+           .contact-form input {
+               width: 300px;
            }
        }
