@@ -1,5 +1,6 @@
        body {
-           background-image: url("../Pictures/joe-woods-4Zaq5xY5M_c-unsplash.jpg");
+           /* background-image: url("../Pictures/joe-woods-4Zaq5xY5M_c-unsplash.jpg") */
+           background-color: rgb(39, 20, 3);
            background-position: center;
            background-repeat: none;
            background-size: cover;
@@ -13,8 +14,8 @@
            background-size: cover;
            padding-left: 0px;
            padding-right: 0px;
-           border: 5px solid rgb(39, 20, 3);
-           border-radius: 10px;
+           /* border: 5px solid rgb(39, 20, 3);
+           border-radius: 10px; */
        }
        
        .logo {
@@ -23,73 +24,73 @@
            background-color: transparent;
            float: left;
            border-radius: 120px;
-           color: rgb(116, 13, 129);
+           color: #660697;
            /* font-size: 40px;
            font-weight: bold;
-           font-family: cursive;
-           text-align: center; */
-           padding: 10px 0 10px 50px;
+           font-family: cursive;*/
+           text-align: center;
+           padding: 10px 0;
        }
        
        .logo-img {
-           width: 500px;
-           height: 210px;
-           border: 2px solid rgb(223, 223, 44);
+           width: 400px;
+           height: 170px;
+           border: 2px solid #ffee00;
        }
        
        .store-top {
            width: 100%;
-           height: 250px;
-           background-image: repeating-linear-gradient(63deg, rgb(223, 223, 44) 0px, rgb(223, 223, 44) 40px, white 40px, white 80px);
+           height: 200px;
+           background-image: repeating-linear-gradient(63deg, #ffee00 0px, #ffee00 40px, white 40px, white 80px);
        }
        
        .store-top-2 {
            width: 100%;
            height: 50px;
-           background-image: repeating-linear-gradient(117deg, rgb(223, 223, 44) 0px, rgb(223, 223, 44) 40px, white 40px, white 80px);
+           background-image: repeating-linear-gradient(117deg, #ffee00 0px, #ffee00 40px, white 40px, white 80px);
            border-top: 3px solid white;
        }
        
        .store-top-3 {
            width: 100%;
            height: 29px;
-           background: rgb(39, 20, 3);
+           background: white;
            padding-left: 45px;
            padding-bottom: 2px;
            font-size: 1.2rem;
-           color: rgb(202, 43, 223);
+           color: #660697;
        }
        
        .nav-color {
            /* position: sticky; */
-           background: rgb(223, 223, 44);
+           background: #ffee00;
            /* margin-top: 5px; */
            /* opacity: 0.9; */
            margin-top: 0;
        }
        
        .nav-link {
-           color: rgb(177, 76, 190);
+           color: #660697;
            font-weight: bold;
        }
        
        .nav-link:hover {
-           color: rgb(116, 13, 129);
+           color: #660697;
        }
        
        #c-btn {
            padding-top: 3px;
-           color: rgb(223, 223, 44);
-           background-color: rgb(116, 13, 129);
+           color: #ffee00;
+           background-color: #660697;
        }
        
        .icon {
-           color: rgb(202, 43, 223);
+           color: #660697;
            padding-left: 10px;
        }
        
        #Home-btn {
-           color: rgb(116, 13, 129);
+           color: #660697;
            font-weight: bolder;
        }
        
@@ -97,7 +98,7 @@
            height: 400px;
            margin: 50px;
            opacity: 0.945;
-           color: rgb(116, 13, 129);
+           color: #660697;
            font-weight: 600;
            background: rgb(225, 215, 226);
        }
@@ -113,17 +114,17 @@
        /* -------------------------------------------------------index page ------------------------------------------------------- */
        
        #online-order {
-           background-color: rgb(223, 223, 44);
+           background-color: #ffee00;
        }
        
        #online-order:hover {
-           color: rgb(116, 13, 129);
+           color: #660697;
        }
        /* -------------------------------------------------------about page ------------------------------------------------------- */
        
        .about-cover {
            background-color: rgb(225, 215, 226);
-           color: rgb(116, 13, 129);
+           color: #660697;
            opacity: 0.9;
            padding: 50px;
        }
@@ -157,29 +158,29 @@
        
        .contact-form input,
        textarea {
-           border: 2px solid rgb(116, 13, 129);
+           border: 2px solid #660697;
        }
        
        .contact-btn {
            padding: 5px 50px 5px 50px;
-           color: rgb(116, 13, 129);
-           border: 2px solid rgb(116, 13, 129);
+           color: #660697;
+           border: 2px solid #660697;
            font-weight: 800;
        }
        
        .contact-btn:hover {
            color: white;
-           background-color: rgb(116, 13, 129);
+           background-color: #660697;
        }
        /* -------------------------------------------------------orders page ------------------------------------------------------- */
        /* container for order and about page */
        
        .container-custom {
-           border: 5px solid rgb(39, 20, 3);
-           border-radius: 10px;
+           /* border: 5px solid rgb(39, 20, 3);
+           border-radius: 10px; */
            background: rgb(225, 215, 226);
            padding: 40px;
-           color: rgb(116, 13, 129);
+           color: #660697;
            opacity: 0.9;
        }
        
@@ -201,12 +202,12 @@
        }
        
        .special-order label {
-           border: 2px solid rgb(116, 13, 129);
+           border: 2px solid #660697;
            margin-bottom: 0;
        }
        
        .prices label {
-           border: 2px solid rgb(116, 13, 129);
+           border: 2px solid #660697;
            margin-bottom: 0;
        }
        
@@ -221,11 +222,11 @@
        /* -------------------------------------------------------desserts page ------------------------------------------------------- */
        
        .pastries-card {
-           border: 3px solid rgb(223, 223, 44);
+           border: 3px solid #ffee00;
        }
        
        .card {
-           border: 3px solid rgb(223, 223, 44);
+           border: 3px solid #ffee00;
        }
        
        #pastries-con {
@@ -237,14 +238,14 @@
        }
        
        .card-body {
-           background-color: rgb(223, 223, 44);
+           background-color: #ffee00;
        }
        
        .pastries-button {
            color: rgb(225, 215, 226);
            width: 100%;
            padding: 10px 50px 10px 50px;
-           background-color: rgb(116, 13, 129);
+           background-color: #660697;
            font-weight: 600;
        }
        /*-------------------------------------------------------media queries----------------------------------------------------*/
