@@ -25,9 +25,6 @@
            float: left;
            border-radius: 120px;
            color: #660697;
-           /* font-size: 40px;
-           font-weight: bold;
-           font-family: cursive;*/
            text-align: center;
            padding: 10px 0;
        }
@@ -35,7 +32,6 @@
        .logo-img {
            width: 400px;
            height: 170px;
-           border: 2px solid #ffee00;
        }
        
        .store-top {
@@ -53,29 +49,36 @@
        
        .store-top-3 {
            width: 100%;
-           height: 29px;
+           height: 35px;
            background: white;
            padding-left: 45px;
            padding-bottom: 2px;
-           font-size: 1.2rem;
+           font-size: 1.5rem;
            color: #660697;
        }
        
        .nav-color {
-           /* position: sticky; */
            background: #ffee00;
-           /* margin-top: 5px; */
-           /* opacity: 0.9; */
            margin-top: 0;
+           padding-left: 27%;
+       }
+       
+       .navbar-brand {
+           font-size: 1.9rem;
        }
        
        .nav-link {
            color: #660697;
            font-weight: bold;
+           font-size: 1.5rem;
        }
        
        .nav-link:hover {
-           color: #660697;
+           color: white;
+       }
+       
+       .navbar-brand:hover {
+           color: white;
        }
        
        #c-btn {
