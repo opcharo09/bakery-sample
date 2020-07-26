@@ -1,313 +1,331 @@
-       body {
-           /* background-image: url("../Pictures/joe-woods-4Zaq5xY5M_c-unsplash.jpg") */
-           background-color: rgb(39, 20, 3);
-           background-position: center;
-           background-repeat: none;
-           background-size: cover;
+   body {
+       /* background-image: url("../Pictures/joe-woods-4Zaq5xY5M_c-unsplash.jpg") */
+       background-color: rgb(39, 20, 3);
+       background-position: center;
+       background-repeat: none;
+       background-size: cover;
+   }
+   
+   .container {
+       background: rgb(255, 255, 255);
+       padding-left: 0px;
+       padding-right: 0px;
+   }
+   /* ////////////////////////////////////////////////////logo/////////////////////////////////////////////////////////////////////   */
+   
+   .logo {
+       width: 100%;
+       height: 200px;
+       background-color: transparent;
+       float: left;
+       border-radius: 120px;
+       color: #660697;
+       text-align: center;
+       padding: 10px 0;
+   }
+   
+   .logo-img {
+       width: 400px;
+       height: 170px;
+   }
+   /* ////////////////////////////////////////////////////////// store top///////////////////////////////////  */
+   
+   .store-top {
+       width: 100%;
+       height: 200px;
+       background-image: repeating-linear-gradient(63deg, #ffee00 0px, #ffee00 40px, white 40px, white 80px);
+   }
+   
+   .store-top-2 {
+       width: 100%;
+       height: 50px;
+       background-image: repeating-linear-gradient(117deg, #ffee00 0px, #ffee00 40px, white 40px, white 80px);
+       border-top: 3px solid white;
+   }
+   
+   .store-top-3 {
+       width: 100%;
+       height: 35px;
+       background: white;
+       padding-left: 45px;
+       padding-bottom: 2px;
+       font-size: 1.5rem;
+       color: #660697;
+   }
+   /* ////////////////////////////////////////////navbar/////////////////////////////////////////////////////////////// */
+   
+   .nav-color {
+       background: #ffee00;
+       margin-top: 0;
+       padding-left: 27%;
+   }
+   
+   .navbar-brand {
+       font-size: 1.9rem;
+   }
+   
+   .nav-link {
+       color: #660697;
+       font-weight: bold;
+       font-size: 1.5rem;
+   }
+   
+   .nav-link:hover {
+       color: white;
+   }
+   
+   .navbar-brand:hover {
+       color: white;
+   }
+   
+   #c-btn {
+       padding-top: 3px;
+       color: #ffee00;
+       background-color: #660697;
+   }
+   
+   .icon {
+       color: #660697;
+       padding-left: 10px;
+   }
+   
+   #Home-btn {
+       color: #660697;
+       font-weight: bolder;
+   }
+   
+   footer {
+       background-color: #ffee00;
+       color: #660697;
+       text-align: center;
+       margin-top: 75px;
+       padding: 50px;
+       height: 100px;
+       border: solid 1px white;
+   }
+   /* -------------------------------------------------------index page ------------------------------------------------------- */
+   
+   h2,
+   .info {
+       text-align: center;
+       margin-bottom: 20PX;
+       color: #660697;
+   }
+   
+   .info {
+       font-size: 1.5rem;
+       margin-top: 10px;
+   }
+   
+   .home-pic {
+       align-content: center;
+       margin: 10px;
+   }
+   /* -------------------------------------------------------price page ------------------------------------------------------- */
+   
+   .info-detail {
+       align-items: center;
+   }
+   /* -------------------------------------------------------coookie page ------------------------------------------------------- */
+   
+   .contact-form {
+       font-size: 1.5;
+   }
+   
+   label {
+       display: flex;
+       align-items: center;
+       font-size: 1.125rem;
+       margin-bottom: 0.5rem;
+   }
+   
+   input,
+   button,
+   select,
+   textarea {
+       margin: 0;
+       font-family: inherit;
+       font-size: inherit;
+       line-height: inherit;
+   }
+   
+   .contact-form input {
+       width: 200px;
+       height: 40px;
+   }
+   
+   .contact-form input,
+   textarea {
+       border: 2px solid #660697;
+   }
+   
+   .contact-btn {
+       padding: 5px 50px 5px 50px;
+       color: #660697;
+       border: 2px solid #660697;
+       font-weight: 800;
+   }
+   
+   .contact-btn:hover {
+       color: white;
+       background-color: #660697;
+   }
+   /* -------------------------------------------------------cake page ------------------------------------------------------- */
+   
+   .container-custom {
+       background: rgb(255, 255, 255);
+       padding: 40px;
+       color: #660697;
+       opacity: 0.9;
+   }
+   
+   header {
+       font-weight: bold;
+       font-size: 50px;
+       text-align: center;
+       margin-bottom: 10px;
+       margin-top: 0;
+   }
+   
+   .order-info {
+       margin-bottom: 30px;
+   }
+   
+   .order-info input {
+       width: 300px;
+       height: 40px;
+   }
+   
+   .order-event {
+       padding-left: 0;
+   }
+   
+   .special-order label {
+       border: 2px solid #660697;
+       margin-bottom: 0;
+   }
+   
+   .prices label {
+       border: 2px solid #660697;
+       margin-bottom: 0;
+   }
+   
+   textarea {
+       -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       box-sizing: border-box;
+       width: 100%;
+   }
+   /* -------------------------------------------------------shop page ------------------------------------------------------- */
+   /* -------------------------------------------------------desserts page ------------------------------------------------------- */
+   
+   .pastries-card {
+       border: 3px solid #ffee00;
+   }
+   
+   .card {
+       border: 3px solid rgb(255, 255, 255);
+   }
+   /* #detail-card {
+       flex-direction: initial;
+   } */
+   
+   #pastries-con {
+       padding: 40px 10px 40px 10px;
+   }
+   
+   .card-img-top {
+       width: 18rem;
+       height: 25rem;
+   }
+   /* .detail-photo {
+           width: 50%;
+           height: 25rem;
+       } */
+   
+   #card-body {
+       flex-direction: column;
+   }
+   
+   .card-body {
+       background-color: rgb(255, 255, 255);
+       text-align: center;
+       color: #660697;
+       font-size: 1.2rem;
+   }
+   
+   .pastries-button {
+       color: rgb(225, 215, 226);
+       width: 100%;
+       padding: 10px 50px 10px 50px;
+       background-color: #660697;
+       font-weight: 600;
+   }
+   /* -------------------------------------------------------about page ------------------------------------------------------- */
+   
+   .about-cover {
+       background-color: rgb(255, 255, 255);
+       color: #660697;
+       opacity: 0.9;
+       padding: 50px;
+   }
+   /*-------------------------------------------------------media queries----------------------------------------------------*/
+   /* // Extra small devices (portrait phones, less than 576px) */
+   
+   @media (max-width: 575.98px) {
+       .pastries-card {
+           width: 18rem;
        }
-       
-       .container {
-           background-image: url("../Pictures/lana-graves-6CbateL66o8-unsplash.jpg");
-           background-position: center;
-           background-size: contain;
-           background-repeat: none;
-           background-size: cover;
-           padding-left: 0px;
-           padding-right: 0px;
-           /* border: 5px solid rgb(39, 20, 3);
-           border-radius: 10px; */
-       }
-       
        .logo {
-           width: 100%;
-           height: 200px;
-           background-color: transparent;
-           float: left;
-           border-radius: 120px;
-           color: #660697;
-           text-align: center;
-           padding: 10px 0;
+           padding: 7px;
        }
-       
+       .logo-img {
+           width: 250px;
+       }
+   }
+   /* // Small devices (landscape phones, 576px and up) */
+   
+   @media (min-width: 576px) and (max-width: 767.98px) {
+       .pastries-card {
+           width: 18rem;
+       }
+       .contact-form input {
+           width: 300px;
+       }
+       .logo-img {
+           width: 300px;
+       }
+   }
+   /* // Medium devices (tablets, 768px and up) */
+   
+   @media (min-width: 768px) and (max-width: 991.98px) {
+       .pastries-card {
+           width: 18rem;
+       }
+       .contact-form input {
+           width: 300px;
+       }
        .logo-img {
            width: 400px;
-           height: 170px;
        }
-       
-       .store-top {
-           width: 100%;
-           height: 200px;
-           background-image: repeating-linear-gradient(63deg, #ffee00 0px, #ffee00 40px, white 40px, white 80px);
-       }
-       
-       .store-top-2 {
-           width: 100%;
-           height: 50px;
-           background-image: repeating-linear-gradient(117deg, #ffee00 0px, #ffee00 40px, white 40px, white 80px);
-           border-top: 3px solid white;
-       }
-       
-       .store-top-3 {
-           width: 100%;
-           height: 35px;
-           background: white;
-           padding-left: 45px;
-           padding-bottom: 2px;
-           font-size: 1.5rem;
-           color: #660697;
-       }
-       
-       .nav-color {
-           background: #ffee00;
-           margin-top: 0;
-           padding-left: 27%;
-       }
-       
-       .navbar-brand {
-           font-size: 1.9rem;
-       }
-       
-       .nav-link {
-           color: #660697;
-           font-weight: bold;
-           font-size: 1.5rem;
-       }
-       
-       .nav-link:hover {
-           color: white;
-       }
-       
-       .navbar-brand:hover {
-           color: white;
-       }
-       
-       #c-btn {
-           padding-top: 3px;
-           color: #ffee00;
-           background-color: #660697;
-       }
-       
-       .icon {
-           color: #660697;
-           padding-left: 10px;
-       }
-       
-       #Home-btn {
-           color: #660697;
-           font-weight: bolder;
-       }
-       
-       .jumbotron {
-           height: 400px;
-           margin: 50px;
-           opacity: 0.945;
-           color: #660697;
-           font-weight: 600;
-           background: rgb(225, 215, 226);
-       }
-       
-       footer {
-           background-color: rgb(39, 20, 3);
-           color: white;
-           text-align: center;
-           margin-top: 75px;
-           padding: 50px;
-           height: 100px;
-       }
-       /* -------------------------------------------------------index page ------------------------------------------------------- */
-       
-       #online-order {
-           background-color: #ffee00;
-       }
-       
-       #online-order:hover {
-           color: #660697;
-       }
-       /* -------------------------------------------------------about page ------------------------------------------------------- */
-       
-       .about-cover {
-           background-color: rgb(225, 215, 226);
-           color: #660697;
-           opacity: 0.9;
-           padding: 50px;
-       }
-       /* -------------------------------------------------------contact page ------------------------------------------------------- */
-       
-       .contact-form {
-           font-size: 1.5;
-       }
-       
-       label {
-           display: flex;
-           align-items: center;
-           font-size: 1.125rem;
-           margin-bottom: 0.5rem;
-       }
-       
-       input,
-       button,
-       select,
-       textarea {
-           margin: 0;
-           font-family: inherit;
-           font-size: inherit;
-           line-height: inherit;
-       }
-       
-       .contact-form input {
-           width: 200px;
-           height: 40px;
-       }
-       
-       .contact-form input,
-       textarea {
-           border: 2px solid #660697;
-       }
-       
-       .contact-btn {
-           padding: 5px 50px 5px 50px;
-           color: #660697;
-           border: 2px solid #660697;
-           font-weight: 800;
-       }
-       
-       .contact-btn:hover {
-           color: white;
-           background-color: #660697;
-       }
-       /* -------------------------------------------------------orders page ------------------------------------------------------- */
-       /* container for order and about page */
-       
-       .container-custom {
-           /* border: 5px solid rgb(39, 20, 3);
-           border-radius: 10px; */
-           background: rgb(225, 215, 226);
-           padding: 40px;
-           color: #660697;
-           opacity: 0.9;
-       }
-       
-       header {
-           font-weight: bold;
-           font-size: 50px;
-           text-align: center;
-           margin-bottom: 10px;
-           margin-top: 0;
-       }
-       
-       .order-info input {
-           width: 300px;
-           height: 40px;
-       }
-       
-       .order-event {
-           padding-left: 0;
-       }
-       
-       .special-order label {
-           border: 2px solid #660697;
-           margin-bottom: 0;
-       }
-       
-       .prices label {
-           border: 2px solid #660697;
-           margin-bottom: 0;
-       }
-       
-       textarea {
-           -webkit-box-sizing: border-box;
-           -moz-box-sizing: border-box;
-           box-sizing: border-box;
-           width: 100%;
-       }
-       /* -------------------------------------------------------cakes page ------------------------------------------------------- */
-       /* -------------------------------------------------------cookies page ------------------------------------------------------- */
-       /* -------------------------------------------------------desserts page ------------------------------------------------------- */
-       
+   }
+   /* // Large devices (desktops, 992px and up) */
+   
+   @media (min-width: 992px) and (max-width: 1199.98px) {
        .pastries-card {
-           border: 3px solid #ffee00;
+           width: 18rem;
        }
-       
-       .card {
-           border: 3px solid #ffee00;
+       .contact-form input {
+           width: 300px;
        }
-       
-       #pastries-con {
-           padding: 40px 10px 40px 10px;
+   }
+   /* // Extra large devices (large desktops, 1200px and up) */
+   
+   @media (min-width: 1200px) {
+       .pastries-card {
+           width: 16rem;
        }
-       
-       .card-img-top {
-           height: 200px;
+       .contact-form input {
+           width: 300px;
        }
-       
-       .card-body {
-           background-color: #ffee00;
-       }
-       
-       .pastries-button {
-           color: rgb(225, 215, 226);
-           width: 100%;
-           padding: 10px 50px 10px 50px;
-           background-color: #660697;
-           font-weight: 600;
-       }
-       /*-------------------------------------------------------media queries----------------------------------------------------*/
-       /* // Extra small devices (portrait phones, less than 576px) */
-       
-       @media (max-width: 575.98px) {
-           .pastries-card {
-               width: 18rem;
-           }
-           .logo {
-               padding: 7px;
-           }
-           .logo-img {
-               width: 250px;
-           }
-       }
-       /* // Small devices (landscape phones, 576px and up) */
-       
-       @media (min-width: 576px) and (max-width: 767.98px) {
-           .pastries-card {
-               width: 18rem;
-           }
-           .contact-form input {
-               width: 300px;
-           }
-           .logo-img {
-               width: 300px;
-           }
-       }
-       /* // Medium devices (tablets, 768px and up) */
-       
-       @media (min-width: 768px) and (max-width: 991.98px) {
-           .pastries-card {
-               width: 18rem;
-           }
-           .contact-form input {
-               width: 300px;
-           }
-           .logo-img {
-               width: 400px;
-           }
-       }
-       /* // Large devices (desktops, 992px and up) */
-       
-       @media (min-width: 992px) and (max-width: 1199.98px) {
-           .pastries-card {
-               width: 18rem;
-           }
-           .contact-form input {
-               width: 300px;
-           }
-       }
-       /* // Extra large devices (large desktops, 1200px and up) */
-       
-       @media (min-width: 1200px) {
-           .pastries-card {
-               width: 16rem;
-           }
-           .contact-form input {
-               width: 300px;
-           }
-       }
+   }
